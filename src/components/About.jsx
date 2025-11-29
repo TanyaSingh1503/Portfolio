@@ -1,6 +1,3 @@
-import React from "react";
-import Portfolio from "./Portfolio";
-
 const About = () => {
   return (
     <div
@@ -13,14 +10,32 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-10">
-          I am a data-driven professional passionate about turning raw information into meaningful insights that support smarter decision-making. I focus on building clear, interactive, and impactful dashboards while simplifying complex datasets into easy-to-understand stories.<br/>
-          <br/>
-          My skill set includes Excel, Advanced Excel, SQL, Python, Power BI, and Tableau, allowing me to work across data cleaning, analysis, visualization, and end-to-end reporting. I enjoy exploring patterns, identifying trends, and presenting insights that add real business value.<br/>
-          <br/>
-          I’ve worked on projects such as sales dashboards, e-commerce performance analysis, KPI monitoring reports, and data storytelling visualizations each showcasing my ability to transform data into actionable outcomes.<br/>
-          <br/>
-          I believe in continuous learning, experimenting with new tools, and strengthening my analytical mindset. I love solving problems, optimizing workflows, and creating visuals that make data meaningful. Let’s connect and explore opportunities to build powerful data solutions together!
+
+        <p className="text-xl mt-10 text-justify leading-relaxed">
+          I am a data-driven professional passionate about turning raw
+          information into meaningful insights that support smarter
+          decision-making. I focus on building clear, interactive, and impactful
+          dashboards while simplifying complex datasets into easy-to-understand
+          stories.
+          <br />
+          <br />
+          My skill set includes Excel, Advanced Excel, SQL, Python, Power BI,
+          and Tableau, allowing me to work across data cleaning, analysis,
+          visualization, and end-to-end reporting. I enjoy exploring patterns,
+          identifying trends, and presenting insights that add real business
+          value.
+          <br />
+          <br />
+          I’ve worked on projects such as sales dashboards, e-commerce
+          performance analysis, KPI monitoring reports, and data storytelling
+          visualizations each showcasing my ability to transform data into
+          actionable outcomes.
+          <br />
+          <br />I believe in continuous learning, experimenting with new tools,
+          and strengthening my analytical mindset. I love solving problems,
+          optimizing workflows, and creating visuals that make data meaningful.
+          Let’s connect and explore opportunities to build powerful data
+          solutions together!
         </p>
       </div>
     </div>

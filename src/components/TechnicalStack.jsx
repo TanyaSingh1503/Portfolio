@@ -1,4 +1,3 @@
-import React from "react";
 import excel from "../assets/portfolio/excel.png";
 import sql from "../assets/portfolio/sql.png";
 import powerbi from "../assets/portfolio/powerbi.png";
@@ -64,7 +63,7 @@ const TechnicalStack = () => {
       src: github,
       title: "Github",
       style: "shadow-gray-500",
-    }
+    },
   ];
   return (
     <div
@@ -76,16 +75,18 @@ const TechnicalStack = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Technical Stack
           </p>
-          <p className="py-6">These are the technologies I've expertise in</p>
+          <p className="py-6">{`These are the technologies I've expertise in`}</p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 py-4 rounded-lg flex flex-col items-center justify-between h-40 ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p>{title}</p>
+
+              {/* Title fixed at same vertical position */}
+              <p className="mt-4">{title}</p>
             </div>
           ))}
         </div>

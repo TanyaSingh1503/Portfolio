@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <div
@@ -15,7 +13,11 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <form action="https://getform.io/f/avrweoxa" method="POST" className="flex flex-col w-full md:w-1/2">
+          <form
+            action="https://getform.io/f/avrweoxa"
+            method="POST"
+            className="flex flex-col w-full md:w-1/2"
+          >
             <input
               type="text"
               name="name"
